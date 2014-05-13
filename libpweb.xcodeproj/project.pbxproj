@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AADF585191BF2E100F0BD1F /* clientSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AADF57E191BF2E100F0BD1F /* clientSocket.cpp */; };
+		4AADF586191BF2E100F0BD1F /* clientSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AADF57F191BF2E100F0BD1F /* clientSocket.h */; };
+		4AADF587191BF2E100F0BD1F /* connectedSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AADF580191BF2E100F0BD1F /* connectedSocket.cpp */; };
+		4AADF588191BF2E100F0BD1F /* connectedSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AADF581191BF2E100F0BD1F /* connectedSocket.h */; };
+		4AADF589191BF2E100F0BD1F /* libsocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AADF582191BF2E100F0BD1F /* libsocket.h */; };
+		4AADF58A191BF2E100F0BD1F /* serverSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AADF583191BF2E100F0BD1F /* serverSocket.cpp */; };
+		4AADF58B191BF2E100F0BD1F /* serverSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AADF584191BF2E100F0BD1F /* serverSocket.h */; };
+		4AADF593191BF31F00F0BD1F /* request.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AADF591191BF31F00F0BD1F /* request.cpp */; };
+		4AADF594191BF31F00F0BD1F /* request.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AADF592191BF31F00F0BD1F /* request.h */; };
+		4AADF597191C6C0B00F0BD1F /* response.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AADF595191C6C0B00F0BD1F /* response.cpp */; };
+		4AADF598191C6C0B00F0BD1F /* response.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AADF596191C6C0B00F0BD1F /* response.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AADF575191BF29800F0BD1F /* liblibpweb.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibpweb.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AADF57E191BF2E100F0BD1F /* clientSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clientSocket.cpp; sourceTree = "<group>"; };
+		4AADF57F191BF2E100F0BD1F /* clientSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clientSocket.h; sourceTree = "<group>"; };
+		4AADF580191BF2E100F0BD1F /* connectedSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = connectedSocket.cpp; sourceTree = "<group>"; };
+		4AADF581191BF2E100F0BD1F /* connectedSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectedSocket.h; sourceTree = "<group>"; };
+		4AADF582191BF2E100F0BD1F /* libsocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libsocket.h; sourceTree = "<group>"; };
+		4AADF583191BF2E100F0BD1F /* serverSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = serverSocket.cpp; sourceTree = "<group>"; };
+		4AADF584191BF2E100F0BD1F /* serverSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serverSocket.h; sourceTree = "<group>"; };
+		4AADF591191BF31F00F0BD1F /* request.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = request.cpp; sourceTree = "<group>"; };
+		4AADF592191BF31F00F0BD1F /* request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = request.h; sourceTree = "<group>"; };
+		4AADF595191C6C0B00F0BD1F /* response.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = response.cpp; sourceTree = "<group>"; };
+		4AADF596191C6C0B00F0BD1F /* response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = response.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AADF572191BF29800F0BD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AADF56C191BF29800F0BD1F = {
+			isa = PBXGroup;
+			children = (
+				4AADF590191BF31F00F0BD1F /* libpweb */,
+				4AADF57D191BF2E100F0BD1F /* libsocket */,
+				4AADF576191BF29800F0BD1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AADF576191BF29800F0BD1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AADF575191BF29800F0BD1F /* liblibpweb.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AADF57D191BF2E100F0BD1F /* libsocket */ = {
+			isa = PBXGroup;
+			children = (
+				4AADF57E191BF2E100F0BD1F /* clientSocket.cpp */,
+				4AADF57F191BF2E100F0BD1F /* clientSocket.h */,
+				4AADF580191BF2E100F0BD1F /* connectedSocket.cpp */,
+				4AADF581191BF2E100F0BD1F /* connectedSocket.h */,
+				4AADF582191BF2E100F0BD1F /* libsocket.h */,
+				4AADF583191BF2E100F0BD1F /* serverSocket.cpp */,
+				4AADF584191BF2E100F0BD1F /* serverSocket.h */,
+			);
+			path = libsocket;
+			sourceTree = "<group>";
+		};
+		4AADF590191BF31F00F0BD1F /* libpweb */ = {
+			isa = PBXGroup;
+			children = (
+				4AADF591191BF31F00F0BD1F /* request.cpp */,
+				4AADF595191C6C0B00F0BD1F /* response.cpp */,
+				4AADF596191C6C0B00F0BD1F /* response.h */,
+				4AADF592191BF31F00F0BD1F /* request.h */,
+			);
+			path = libpweb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AADF573191BF29800F0BD1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AADF58B191BF2E100F0BD1F /* serverSocket.h in Headers */,
+				4AADF589191BF2E100F0BD1F /* libsocket.h in Headers */,
+				4AADF586191BF2E100F0BD1F /* clientSocket.h in Headers */,
+				4AADF588191BF2E100F0BD1F /* connectedSocket.h in Headers */,
+				4AADF594191BF31F00F0BD1F /* request.h in Headers */,
+				4AADF598191C6C0B00F0BD1F /* response.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AADF574191BF29800F0BD1F /* libpweb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AADF579191BF29800F0BD1F /* Build configuration list for PBXNativeTarget "libpweb" */;
+			buildPhases = (
+				4AADF571191BF29800F0BD1F /* Sources */,
+				4AADF572191BF29800F0BD1F /* Frameworks */,
+				4AADF573191BF29800F0BD1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libpweb;
+			productName = libpweb;
+			productReference = 4AADF575191BF29800F0BD1F /* liblibpweb.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AADF56D191BF29800F0BD1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ethan Laur";
+			};
+			buildConfigurationList = 4AADF570191BF29800F0BD1F /* Build configuration list for PBXProject "libpweb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AADF56C191BF29800F0BD1F;
+			productRefGroup = 4AADF576191BF29800F0BD1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AADF574191BF29800F0BD1F /* libpweb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AADF571191BF29800F0BD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AADF587191BF2E100F0BD1F /* connectedSocket.cpp in Sources */,
+				4AADF593191BF31F00F0BD1F /* request.cpp in Sources */,
+				4AADF597191C6C0B00F0BD1F /* response.cpp in Sources */,
+				4AADF585191BF2E100F0BD1F /* clientSocket.cpp in Sources */,
+				4AADF58A191BF2E100F0BD1F /* serverSocket.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AADF577191BF29800F0BD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4AADF578191BF29800F0BD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4AADF57A191BF29800F0BD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AADF57B191BF29800F0BD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AADF570191BF29800F0BD1F /* Build configuration list for PBXProject "libpweb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AADF577191BF29800F0BD1F /* Debug */,
+				4AADF578191BF29800F0BD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AADF579191BF29800F0BD1F /* Build configuration list for PBXNativeTarget "libpweb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AADF57A191BF29800F0BD1F /* Debug */,
+				4AADF57B191BF29800F0BD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AADF56D191BF29800F0BD1F /* Project object */;
+}
